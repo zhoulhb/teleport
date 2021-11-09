@@ -30,6 +30,13 @@ Teleport支持部署到Linux系统中，目前支持的系统版本如下：
 
 [Telport在线文档](https://docs.tp4a.com/)
 
+### 助手设置
+teleport支持多种ssh工具，Xshell内置命令行参数。其他ssh工具如何集成呢，Mobaxterm命令行参数配置如下，其他工具参考各自工具的官方文档或google！
+```
+#Mobaxterm命令参数
+-newtab "sshpass -p '{****}' ssh {user_name}@{host_ip} -p {host_port}"
+```
+
 ## 提供帮助
 
 Teleport项目现在接受捐赠。如果您觉得Teleport对您有所帮助，请通过下列方式进行捐赠。您的帮助将给我动力持续更新，并保障服务器继续运行，谢谢！
